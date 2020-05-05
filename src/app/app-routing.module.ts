@@ -10,11 +10,11 @@ import { HelpComponent } from './help/help.component';
 
 
 const routes: Routes = [
-  {path:'', component: HomePageComponent, pathMatch: 'full'},
-  {path:'registration', component:RegisterAccountComponent, pathMatch: 'full'},
-  {path:'users-details', component:UsersDetailsComponent, pathMatch: 'full'},
-  {path: 'user-detail/:username', component:SingleUserDetailsComponent, pathMatch: 'full'},
-  {path: 'edit-detail/:username', component: EditDetailsComponent, pathMatch: 'full'},
+  {path:'', component: HomePageComponent},
+  {path:'registration', component:RegisterAccountComponent},
+  {path:'users-details', component:UsersDetailsComponent},
+  {path: 'user-detail/:username', component:SingleUserDetailsComponent},
+  {path: 'edit-detail/:username', component: EditDetailsComponent},
   {path: 'about', component: AboutComponent},
   {path: 'help', component: HelpComponent}
 ];
